@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <meta property="og:url" content="https://swhan701.github.io/Aidenportfolio/">
+    <meta property="og:type" content="website">
+    <meta property="title" content="Sangwoo Han portforlio">
+    <meta property="og:description" content="About Sangwoo Han">
+    <meta property="og:image" content="img.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+</head>
+<style>
+    .title1 {
+        margin: 2% 0% 0% 0%;
+        font-size: 30px;
+        font-weight: 200;
+        display: flex;
+        justify-content: center;
+    }
+
+    .subtitle1 {
+        margin: 0% 0% 3% 0%;
+        font-size: 15px;
+        font-weight: 100;
+        display: flex;
+        justify-content: center;
+    }
+
+    .menubar {
+        margin: 0% 0% 7% 0%;
+        padding: 0.2cm;
+        padding: 0.2cm;
+        background-color: #f1f1f4;
+        font-size: 15px;
+        font-weight: 200;
+        display: flex;
+        justify-content: center;
+    }
+
+    .white1 {}
+
+    .title {
+        margin-bottom: 2cm;
+        font-size: 30px;
+        font-weight: 250;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3cm;
+        font-size: 15px;
+        font-weight: 200;
+
+    }
+
+    .leftbox {
+        margin-right: 2cm;
+        text-align: center;
+    }
+
+    .project1 {
+        margin-bottom: 15px;
+
+    }
+
+    .project2 {
+
+        margin-bottom: 15px;
+    }
+
+    .project3 {
+
+        margin-bottom: 15px;
+    }
+
+    .project4 {
+
+        margin-bottom: 15px;
+    }
+
+    .middlebar {
+        border-left: 1px solid #38546d;
+        background: #16222c;
+        margin-top: 0.1cm;
+        width: 0.2px;
+        height: 130px;
+        position: absolute;
+    }
+
+    .rightbox {
+        margin-left: 2cm;
+        text-align: center;
+    }
+
+    .award1 {
+
+        margin-bottom: 15px;
+    }
+
+    .award2 {
+
+        margin-bottom: 15px;
+    }
+
+    .award3 {
+
+        margin-bottom: 15px;
+    }
+
+    .award4 {
+
+        margin-bottom: 15px;
+    }
+
+    .gray1 {
+        background-color: #f1f1f4;
+        height: 27cm;
+    }
+
+    .pic1 {
+        padding-top: 3cm;
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1title {
+        padding-top: 2cm;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .p1t1 {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .p1t2 {
+        margin-bottom: 2cm;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .p1content {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 200;
+        margin-bottom: 0.15cm;
+    }
+
+    .white2 {
+        height: 35cm;
+    }
+
+    .graybox1 {
+        margin-top: 6cm;
+    }
+
+    .p2title {
+
+        text-align: center;
+    }
+
+    .p2t1 {
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .p2t2 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    .p2t3 {
+        margin-bottom: 2cm;
+        font-size: 25px;
+        font-weight: 250;
+    }
+
+    .p2c {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 150;
+        margin-bottom: 0.15cm;
+    }
+
+    .curator1 {
+        margin-top: 2cm;
+        display: flex;
+        justify-content: center;
+    }
+
+    .curator234 {
+        margin-top: 0.5cm;
+        display: flex;
+        justify-content: center;
+    }
+
+    .curator2 {
+        margin-right: 0.2cm;
+    }
+
+    .curator3 {
+        margin-left: 0.2cm;
+    }
+
+    .gray2 {
+        background-color: #f1f1f4;
+        height: 30cm;
+    }
+
+    .p3title {
+        padding-top: 2cm;
+
+        text-align: center;
+    }
+
+    .p3t1 {
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .p3t2 {
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    .p3t3 {
+        margin-bottom: 2cm;
+        font-size: 22px;
+        font-weight: 250;
+    }
+
+    .pic3 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p3content {
+        margin-top: 2cm;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 200;
+
+    }
+
+    .p3c {
+        margin-bottom: 0.15cm;
+    }
+
+    .white3 {
+        height: 15cm;
+    }
+
+    .gray3 {
+        background-color: #f1f1f4;
+        height: 22cm;
+        display: flex;
+        justify-content: center;
+    }
+
+    .pic5 {
+        margin-top: 5.5cm;
+        margin-left: 2.5cm;
+    }
+
+    .whitebox3 {
+        margin-top: 5.5cm;
+        width: 600px;
+        height: 400.359px;
+        text-align: left
+    }
+
+    .a1title {
+        margin-top: 2cm;
+        margin-left: 1cm;
+        margin-bottom: 2cm;
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .a1content {
+        margin-left: 1cm;
+        margin-bottom: 0.15cm;
+        font-size: 13px;
+        font-weight: 200;
+    }
+
+    .white4 {
+        height: 23cm;
+        display: flex;
+        justify-content: center;
+        margin-left: 1cm;
+    }
+
+    .pic6 {
+        margin-top: 5cm;
+    }
+
+    .graybox3 {
+        margin-top: 5cm;
+        width: 400px;
+        height: 490.359px;
+        margin-left: 1.5cm;
+        text-align: left
+    }
+
+    .a2title {
+        margin-top: 4cm;
+        margin-bottom: 2cm;
+        font-size: 20px;
+        font-weight: 250;
+    }
+
+    .a2content {
+        margin-bottom: 0.15cm;
+        font-size: 13px;
+        font-weight: 200;
+    }
+
+    .gray4 {
+        background-color: #f1f1f4;
+        height: 20cm;
+        display: flex;
+        justify-content: center;
+    }
+
+    .whitebox4 {
+        margin-top: 5cm;
+        padding-left: 2.5cm;
+        width: 600px;
+        height: 400.359px;
+        text-align: left
+    }
+
+    .a3title {
+        margin-top: 2.5cm;
+
+        font-size: 25px;
+        font-weight: 250;
+    }
+
+    .a3t {
+        margin-bottom: 2.5cm;
+        font-size: 13px;
+        font-weight: 200;
+    }
+
+    .a3content {
+        margin-bottom: 0.15cm;
+        font-size: 13px;
+        font-weight: 200;
+    }
+
+    .pic7 {
+        margin-top: 4.5cm;
+    }
+
+
+    .white5 {
+        margin-top: 3.5cm;
+        display: flex;
+        justify-content: center;
+        height: 18cm;
+    }
+
+    .w5leftbox {
+        margin-right: 0.3cm;
+    }
+
+    .w5rightbox {
+        margin-left: 0.3cm;
+    }
+
+    .pic8-2 {
+        margin-bottom: 0.5cm;
+    }
+
+    .graybox4 {
+        background-color: #f1f1f4;
+        width: 400px;
+        height: 230px;
+    }
+
+    .a4title {
+        margin-top: 0.5cm;
+        padding-top: 1.2cm;
+        margin-bottom: 0.8cm;
+        font-size: 25px;
+        font-weight: 300;
+
+        text-align: center
+    }
+
+    .a4content {
+        margin-bottom: 0.3cm;
+        font-size: 13px;
+        font-weight: 200;
+        text-align: center
+    }
+
+    a {
+        text-decoration: none !important;
+        color: black;
+    }
+</style>
+
+<body>
+    <div>
+        <div class="title1"> About Sangwoo Han</div>
+        <div class="subtitle1">A Pleasure to work With</div>
+        <div class="menubar row">
+            <a href="index.html">
+                <div class="home" style="margin-right:0.5cm">Home</div>
+            </a>
+            <a href="PortfolioTravelAbroad.html">
+                <div class="oversea_experiences" style="margin-right:0.5cm">OverseaExperiences</div>
+            </a>
+            <a href="PortfolioAward.html">
+                <div class="award" style="margin-right:0.5cm">Project & Awards</div>
+            </a>
+            <div class="Interest" style="margin-right:0.5cm">Interests</div>
+        </div>
+        <div class="white1">
+            <div class="title">Projects & Awards</div>
+            <div class="box">
+                <div class="leftbox">
+                    <a href="#project1">
+                        <div class="project1">Flim Making</div>
+                    </a>
+                    <a href="#project2">
+                        <div class="project2">Curator</div>
+                    </a>
+                    <a href="#project3">
+                        <div class="project3">Volunteer Work</div>
+                    </a>
+                    <a href="#project4">
+                        <div class="project4">reports</div>
+                    </a>
+                </div>
+                <div class="middlebar"></div>
+                <div class="rightbox">
+                    <a href="#award1">
+                        <div class="award1">창업경진대회</div>
+                    </a>
+                    <a href="#award2">
+                        <div class="award2">우수 자원봉사자</div>
+                    </a>
+                    <a href="#award3">
+                        <div class="award3">Student of the Month</div>
+                    </a>
+                    <a href="#award4">
+                        <div class="award4">어학점수</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="project1" class="gray1">
+            <div class="whitebox1">
+                <div class="p1title">Flim</div>
+                <div class="p1t1"></div>
+                <div class="p1t2">A&nbsp;&nbsp;Documentary</div>
+                <div class="p1content">내용내용내용내용내용내용내용내용내용내용내용내용</div>
+                <div class="p1content">내용내용내용내용내용내용내용내용내용내용내용내용</div>
+                <div class="p1content">내용내용내용내용내용내용내용내용내용내용내용내용</div>
+                <div class="pic1">
+                    <iframe width="900" height="506.25" src="https://www.youtube.com/embed/XmJTSYxxhMs" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+            </div>
+            <div id="project2" class="white2">
+                <div class="graybox1">
+                    <div class="p2title">
+                        <div class="p2t1">Curator</div>
+                        <div class="p2t2">at</div>
+                        <div class="p2t3">Awon</div>
+                    </div>
+                    <div class="p2content">
+                        <div class="p2c">미술산업의 미술품 전시, 교체의 과정이 궁금하여 ‘아원’이라는 지역 미술관 겸 카페에서</div>
+                        <div class="p2c">일을 한 경험이 있습니다. 아원에서 근무하는 동안, 세계적인 키네틱 아트 아티스트 안형남</div>
+                        <div class="p2c">작가님의 전시를 준비하였습니다. 작품 교체시즌동안 3일 밤낮으로 안형남 작가님과 함께</div>
+                        <div class="p2c">작품설치에 매진하였고,개관 이후에는 아원에 방문하신 손님들께 안형남 작가님의 작품에</div>
+                        <div class="p2c">대하여 소개해드렸습니다.이 프로젝트는 예술 뿐만아니라 예술 산업에 관심이 있던 저에게</div>
+                        <div class="p2c">많은 궁금증을 해결할 수 있는 경험이 되었고, 운이 좋게도 너무나도 유명하신</div>
+                        <div class="p2c">작가님과 함께 일을 할 수 있어 굉장히 뜻 깊었던 시간입니다</div>
+                    </div>
+                </div>
+                <div class="pic2">
+                    <div class="curator1"><img src="img/curator2.jpg" width="616" height="460.359"></div>
+                    <div class="curator234">
+                        <div class="curator2"><img src="img/curator1.jpg" width="300" height="230.359"></div>
+                        <div class="curator3"><img src="img/curator3.jpg" width="300" height="230.359"></div>
+
+                    </div>
+                </div>
+            </div>
+            <div id="project3" class="gray2">
+                <div class="whitebox2">
+                    <div class="p3title">
+                        <div class="p3t1">Volunteer</div>
+                        <div class="p3t2">as</div>
+                        <div class="p3t3">A Translator</div>
+                    </div>
+                    <div class="pic3"><img src="img/volunteer1.jpg" width="616" height="460.359"></div>
+                    <div class="p3content">
+                        <div class="p3c">전주시에서 개최한 비빔밥 축제에 통역으로 자원봉사를 한 경험은 조금 특별합니다.</div>
+                        <div class="p3c">본 행사장에서 조금 떨어진 한옥마을 부스에서 다른 팀원들과 함께 근무를 하였는데</div>
+                        <div class="p3c">한옥마을 부스에 상주 할직원이 부족하여 다른 팀원들과 함께 직원의 역할까지 수행한</div>
+                        <div class="p3c">기억이 있습니다. 개개인의 역할 뿐만 아니라, 셔틀버스 기사님 관리, 한옥마을 행사진행</div>
+                        <div class="p3c">업체 관리 등, 자원봉사자들이 힘을 합쳐 성공적으로 한옥마을 부스를 운영했냈습니다.</div>
+                        <div class="p3c">함께 상주하는 직원이 없어 늘어난 책임 덕분에 오히려, 부스 내 팀원들 끼리 </div>
+                        <div class="p3c">더욱 돈독해 질 수 있었고, 자원봉사가 더 재미있어지지 않았나 생각됩니다.</div>
+                    </div>
+                </div>
+            </div>
+            <div id="project4" class="white3">
+                <div class="pic4"></div>
+                <div class="graybox2">
+                    <div class="p3title"></div>
+                    <div class="p3content"></div>
+                </div>
+            </div>
+            <div id="award1" class="gray3">
+                <div class="pic5"><img src="img/startup.jpg" width="600" height="400.359"></div>
+                <div class="whitebox3">
+                    <div class="a1title">창업경진대회, 창업지원단장상</div>
+                    <div class="a1content">‘Smart Hospital’은</div>
+                    <div class="a1content">기본적으로는 개개인의 처방전 관리와 약처방으로 시작하여,</div>
+                    <div class="a1content">쌓여진 Data를 활용하여 병원, 제약회사, 국민 모두가 사용할</div>
+                    <div class="a1content">수 있는 의료정보 플랫폼으로서 기능을 할 수 어플리케이션</div>
+                    <div class="a1content">입니다. 더 나아가 미래에, 데이터가 충분히 축적 되었다면</div>
+                    <div class="a1content">원격진료와 같이 빠르게 다가오고있는 e-Health 시대에</div>
+                    <div class="a1content">발 빠르게 활용될 수 있는 플랫폼이 될 것 입니다.</div>
+                </div>
+            </div>
+            <div id="award2" class="white4">
+                <div class="pic6"><img src="img/volunteerw.jpg" width="400" height="490.359"></div>
+                <div class="graybox3">
+                    <div class="a2title">우수 자원봉사상</div>
+                    <div class="a2content">전주시 비빔밥 축제 통역으로 자원봉사를 한 경험이 있습니다.</div>
+                    <div class="a2content">본 행사장에서 조금 떨어진 한옥마을 부스에서 근무를 하였는데</div>
+                    <div class="a2content">인력 부족으로 부수에 봉사자외에 직원분이 상주할 수 없어,</div>
+                    <div class="a2content">통역 외에도 셔틀버스 기사님 관리, 행사진행업체 관리</div>
+                    <div class="a2content">등 업무를 병행해야 했습니다. 주변에서 좋게</div>
+                    <div class="a2content">평가해주셨고, 좋은 상을 수상할 수 있었습니다.</div>
+                </div>
+            </div>
+            <div id="award3" class="gray4">
+                <div class="whitebox4">
+                    <div class="a3title">Student of the Month</div>
+                    <div class="a3t">at GV</div>
+                    <div class="a3content">어학연수를 지낸 GV라는 학원에서는 매달을 마무리하며,</div>
+                    <div class="a3content">300여명의 학생들중, 각 레벨마다 이달의 학생을 선정하였습니다. </div>
+                    <div class="a3content">Student of the Month는 성적 뿐만아니라 수업 참여도, 학원내 다른국가 </div>
+                    <div class="a3content">학생들과의 관계를 모두 고려하여 수여하는 상입니다. 학원에 처음 들어갔을때, 졸업하기 전에 </div>
+                    <div class="a3content">꼭 한번 받고 싶었던 상이였는데, 수상하게 되어서 굉장히 기쁜 기억이 있습니다.</div>
+                </div>
+                <div class="pic7"><img src="img/som.jpg" width="600" height="400.359"></div>
+
+            </div>
+            <div id="award4" class="white5">
+                <div class="w5leftbox">
+                    <div class="pic8"><img src="img/opic.jpg" width="400" height="490.359"></div>
+                </div>
+                <div class="w5rightbox">
+                    <div class="pic8-2"><img src="img/toeic.jpeg" width="400" height="230"></div>
+                    <div class="graybox4">
+                        <div class="a4title">Score & Valid date</div>
+                        <div class="a4content">OPIC (IH) : 2018.11.06 - 2020.10.06</div>
+                        <div class="a4content">TOEIC (975) : 2016.04.30 - 2018.04.30</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
